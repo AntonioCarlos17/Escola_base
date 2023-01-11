@@ -81,3 +81,38 @@ img#footer{
 }
 
 /* modelagem dá pagina contato*/
+
+form{
+    margin-left: 150px;
+    text-align: center;
+    width: 600px;
+    box-shadow: 3px 3px 3px 3px #9aa0a0;
+    box-sizing: border-box;
+}
+
+input#enviar{
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+label#nome{
+    margin-top: 8px;
+    margin-left: 5px;
+}
+input#name{
+    margin-top: 15px;
+    width: 250px;
+}
+
+label#assunt{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -60px;
+}
+
+input#assunto{
+    position: static;
+    width: 400px;
+    height: 600px;
+    
+}
