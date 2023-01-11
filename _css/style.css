@@ -98,21 +98,30 @@ input#enviar{
 label#nome{
     margin-top: 8px;
     margin-left: 5px;
+    padding: 3px;
 }
 input#name{
     margin-top: 15px;
     width: 250px;
+    padding: 3px;
 }
-
+label#email{
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+input#mail{
+    margin-top: 0px;
+    width: 200px;
+}
 label#assunt{
-    position: absolute;
-    margin-top: -5px;
-    margin-left: -60px;
+    margin-top: -15px;
+    margin-left: 0px;
 }
-
-input#assunto{
-    position: static;
-    width: 400px;
-    height: 600px;
-    
-}
+textarea#message {
+    padding : 10px;
+    width   : 400px;
+    height  : 300px;
+    resize  : none;
+    overflow: auto;
+  }
