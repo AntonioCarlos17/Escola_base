@@ -32,7 +32,7 @@ div#menu li{
     display: inline-block;
     background-color: none;
     padding: 2px;
-    margin-left: 90px;
+    margin-left: 80px;
     transition: .4s;
 }
 
@@ -80,7 +80,7 @@ img#footer{
     height: 30px;
 }
 
-/* modelagem dá pagina contato*/
+/* modelagem dá pagina fale conosco*/
 
 form{
     margin-left: 150px;
@@ -105,23 +105,36 @@ input#name{
     width: 250px;
     padding: 3px;
 }
-label#email{
+label#mail{
     position: relative;
     margin: auto;
     text-align: center;
 }
-input#mail{
+input#email{
+    padding: 3px;
     margin-top: 0px;
-    width: 200px;
+    width: 260px;
 }
 label#assunt{
-    margin-top: -15px;
-    margin-left: 0px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -60px;
 }
 textarea#message {
     padding : 10px;
     width   : 400px;
-    height  : 300px;
+    height  : 350px;
     resize  : none;
     overflow: auto;
   }
+
+label#tel{
+    position: relative;
+    margin: auto;
+    text-align: center;    
+}
+input#telefone{
+    padding: 3px;
+    margin-top: 0px;
+    width: 100px;    
+}
