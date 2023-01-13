@@ -19,8 +19,7 @@ function validateEmailAddress(email) {
     return re.test(email);
     }
     function validate() {
-    $("#result").text("");
-    var emailaddress = $("#email").val();
+    var emailaddress = queryselector("#email").val();
     if (validateEmailAddress(emailaddress)) {
     $("#result").text(emailaddress + " is valid :)");
     $("#result").css("color", "green");
@@ -31,3 +30,4 @@ function validateEmailAddress(email) {
     return false;
     }
     $("#validate").bind("click", validate);
+

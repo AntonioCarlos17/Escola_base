@@ -21,16 +21,22 @@
            <h1>FALE CONOSCO</h1>
         </div>
         <form action="submit">
-            <p>Enter an email address:</p>
-<input id='email'>
-<button type='submit' id='validate'>Validate!</button>
         <label for="nome" id="nome">Nome:</label><input type="text" name="name" id="name"></br></br>
-        <label for="email" id="mail">E-mail:</label><input type="email" name="email" id="email"><button type="submit" id='validate'>Validar!</button></br></br>
+        
+        <label for="email" id="mail">E-mail:</label><input type="email" name="email" id="email"><button type="submit" id='validate'>Validar!</button>
+        <div id="checkbox-container">
+            <input type="checkbox" name="" id="">
+        <span id='result'></span>
+    </div>        
+    </br></br>
+
+
+
         <label for="tel" id="tel">Telefone:</label><input type="text" name="telefone" id="telefone" size="25" maxlength="15" onkeypress="mascara(this)"></br></br>
         <label for="assunto" id="assunt">Assunto:</label><textarea name="message" id="message" cols="40" rows="30"></textarea></br></br>
         <input type="button" value="ENVIAR" id="enviar">
 
-        <h2 id='result'></h2>
+        
         <script src="_script/script.js"></script>
         </form>
 
