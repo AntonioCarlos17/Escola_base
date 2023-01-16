@@ -139,59 +139,25 @@ input#telefone{
     width: 100px;    
 }
 
-/*colocando um imput de forma manual*/
+/*ajustando as fotos da página das professoras*/
 
-.checkbox-container {
-    display: block;
-    position: relative;
-    padding-left: 4px;
-    margin-bottom: 3px;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+img#profe{
+    width: 40px;
+    height: 40px;
 }
 
-.checkbox-container input{
-    position: absolute;
-    height: 0;
-    width: 0;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.checkbox-container .checkmark{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #cccccc;
-    transition: all 0.2s;
-}
-
-.checkbox-container:hover input~ .checkmark{
-    background-color: #cccccc;
-}
-
-.checkbox-container input:checked~ .checkmark{
-    background-color: #9b51e0;
-}
-
-.checkbox-container .checkmark:after{
-    content: "";
+div#A1{
     display: none;
-    position: absolute;
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 13px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    transform: rotate(45deg);
 }
-
-.checkbox-container input:checked ~ .checkmark:after{
-    display: block;
+div#A2{
+    display: none;
+}
+div#A3{
+    display: none;
+}
+div#A4{
+    display: none;
+}
+div#A5{
+    display: none;
 }

@@ -14,20 +14,53 @@ function mascara(telefone){
   
 }
 
-function validateEmailAddress(email) {
-    var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return re.test(email);
-    }
-    function validate() {
-    var emailaddress = queryselector("#email").val();
-    if (validateEmailAddress(emailaddress)) {
-    $("#result").text(emailaddress + " is valid :)");
-    $("#result").css("color", "green");
-    } else {
-    $("#result").text(emailaddress + " is not correct, please retry:(");
-    $("#result").css("color", "red");
-    }
-    return false;
-    }
-    $("#validate").bind("click", validate);
 
+var btn1 = document.querySelector('#mostrar1')
+var btn2 = document.querySelector('#mostrar2')
+var btn3 = document.querySelector('#mostrar3')
+var btn4 = document.querySelector('#mostrar4')
+var btn5 = document.querySelector('#mostrar5')
+
+
+btn1.addEventListener('click', function(){
+    const container = document.querySelector('#A1')
+    if(container.style.display === 'block'){
+        container.style.display = 'none';
+    }else{
+        container.style.display = 'block';
+    }})
+btn2.addEventListener('click', function(){
+    const container = document.querySelector('#A2')
+    if(container.style.display === 'block'){
+        container.style.display = 'none';
+    }else{
+        container.style.display = 'block';
+    }
+})
+
+btn3.addEventListener('click', function(){
+    const container = document.querySelector('#A3')
+    if(container.style.display === 'block'){
+        container.style.display = 'none';
+    }else{
+        container.style.display = 'block';
+    }
+})
+
+btn4.addEventListener('click', function(){
+    const container = document.querySelector('#A4')
+    if(container.style.display === 'block'){
+        container.style.display = 'none';
+    }else{
+        container.style.display = 'block';
+    }
+})
+
+btn5.addEventListener('click', function(){
+    const container = document.querySelector('#A5')
+    if(container.style.display === 'block'){
+        container.style.display = 'none';
+    }else{
+        container.style.display = 'block';
+    }
+})
