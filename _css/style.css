@@ -242,16 +242,40 @@ button#mostrar5{
 }
 
 li#esconder{
-    display: contents;    
+    display: contents;
+    cursor: pointer;
+    position: relative;
 }
 
 img#profe:hover{
 box-shadow: 3px 3px 3px  black;
-
 }
-/*
-figure.foto-legenda:hover figcaption{
-    display: contents;
-    opacity: 100%;
-    transition: 1s;
-}*/
+
+button#btnmatricula{
+    margin-left: 30px;
+    cursor: pointer;
+    margin-right: 0px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: azure;
+    border-radius: 5px;
+}
+
+button#btnmatricula:hover{
+    background-color: rgb(182, 245, 210);
+    color: blueviolet;
+    font-style: normal;
+    border-radius: 5px;
+}
+
+input#numMatricula{
+    margin-left: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+div#pesquisa{
+    box-shadow: 3px 3px 3px 1px #b8d7d9;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 3px;
+    padding-left: 3px;
+}
